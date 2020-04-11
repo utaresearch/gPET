@@ -4,7 +4,7 @@
 
 > latest update: Mar 31, 2020.   
 > Authors: Y. Lai, X. Jia* and Y. Chi*  
-> Department of Physics, University of Texas at Arlington, Arlington, TX 76019, USA. 
+> Department of Physics, University of Texas at Arlington, Arlington, TX 76019, USA.  
 > Innovative Technology Of Radiotherapy Computation and Hardware (iTORCH) Laboratory, Department of Radiation Oncology,   University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.   
 > *Corresponding authors: Yujie.Chi@uta.edu, Xun.Jia@UTSouthwestern.edu. 
 
@@ -17,7 +17,7 @@ Other significant contributors in the development of the code include:
 ## Statement
 
 This is a GPU-based MC simulation package dedicated for PET simulation. For more details or for citation, please refer to the following publication:
-https://iopscience.iop.org/article/10.1088/1361-6560/ab5610/meta
+https://iopscience.iop.org/article/10.1088/1361-6560/ab5610/meta   
 Caution: In this released version, double precision floating-point numbers are employed for recording time in the entire simulation, including those computations on the GPU-end, to improve accuracy. Correspondingly, the time cost for the simulation is expected to be longer than that reported in the paper listed above.
 
 ## Hardware and software requirement
