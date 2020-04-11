@@ -2,7 +2,7 @@
 
 # gPET
 
-> latest update: Mar 31, 2020. 
+> latest update: Mar 31, 2020.   
 > Authors: Y. Lai, X. Jia* and Y. Chi*  
 > Department of Physics, University of Texas at Arlington, Arlington, TX 76019, USA. 
 > Innovative Technology Of Radiotherapy Computation and Hardware (iTORCH) Laboratory, Department of Radiation Oncology,   University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.   
