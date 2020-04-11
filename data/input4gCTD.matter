@@ -1,0 +1,131 @@
+ This file is part of set:
+ input4gCTD
+ HEADER section: Material data file for gCTD.
+ [Emin_ph,Emin,Emax] (eV): energy interval in which data is to be generated:
+
+  1.000000e+03  0.000000e+00  1.022000e+06
+ Wcc & Wcb (eV), cutoffs energies for collision and bremsstrahlung respectively:
+
+  0.000000e+00  0.000000e+00
+ Step length parameters shigh(cm),slow(cm),ecross(eV):
+
+  0.000000e+00  0.000000e+00  0.000000e+00
+ No of materials in this file:
+
+   7
+
+ MATERIAL: DryAir
+ Reference density (g/cm^3):
+    1.204800e-03
+ No elements in molecule:
+   4
+     6  1.501870e-04
+     7  7.844300e-01
+     8  2.107480e-01
+     18  4.671110e-03
+ Total atno(Z), Z^2 & Z(Z+1):
+  7.261975e+00  5.344379e+01  6.070576e+01
+ Atomic mass (amu):
+  1.454767e+01
+ AtNo AtNo^2 to mass ratios with respect to ref:
+  8.992712e-01  1.002742e+00
+
+ MATERIAL: Water
+ Reference density (g/cm^3):
+    1.000000e+00
+ No elements in molecule:
+   2
+     1  2.000000e+00
+     8  1.000000e+00
+ Total atno(Z), Z^2 & Z(Z+1):
+  1.000000e+01  6.600000e+01  7.600000e+01
+ Atomic mass (amu):
+  1.801480e+01
+ AtNo AtNo^2 to mass ratios with respect to ref:
+  1.000000e+00  1.000000e+00
+
+ MATERIAL: PMMA
+ Reference density (g/cm^3):
+    1.180000e+00
+ No elements in molecule:
+   3
+     1  8.000000e+00
+     6  5.000000e+00
+     8  2.000000e+00
+ Total atno(Z), Z^2 & Z(Z+1):
+  5.400000e+01  3.160000e+02  3.700000e+02
+ Atomic mass (amu):
+  1.001162e+02
+ AtNo AtNo^2 to mass ratios with respect to ref:
+  9.716702e-01  8.615258e-01
+
+ MATERIAL: PE
+ Reference density (g/cm^3):
+    9.600000e-01
+ No elements in molecule:
+   2
+     1  4.000000e+00
+     6  2.000000e+00
+ Total atno(Z), Z^2 & Z(Z+1):
+  1.600000e+01  7.600000e+01  9.200000e+01
+ Atomic mass (amu):
+  2.805360e+01
+ AtNo AtNo^2 to mass ratios with respect to ref:
+  1.027450e+00  7.394529e-01
+
+ MATERIAL: LSO
+ Reference density (g/cm^3):
+    7.400000e+00
+ No elements in molecule:
+   3
+     71  2.000000e+00
+     14  1.000000e+00
+     8  5.000000e+00
+ Total atno(Z), Z^2 & Z(Z+1):
+  1.960000e+02  1.059800e+04  1.079400e+04
+ Atomic mass (amu):
+  4.580210e+02
+ AtNo AtNo^2 to mass ratios with respect to ref:
+  7.709037e-01  6.315738e+00
+
+ MATERIAL: LYSO
+ Reference density (g/cm^3):
+    7.100000e+00
+ No elements in molecule:
+   4
+     71  1.800000e+00
+     39  2.000000e-01
+     14  1.000000e+00
+     8  5.000000e+00
+ Total atno(Z), Z^2 & Z(Z+1):
+  1.896000e+02  9.894000e+03  1.008360e+04
+ Atomic mass (amu):
+  4.408082e+02
+ AtNo AtNo^2 to mass ratios with respect to ref:
+  7.748509e-01  6.126434e+00
+
+ MATERIAL: TissueICRP
+ Reference density (g/cm^3):
+    1.000000e+00
+ No elements in molecule:
+   13
+     1  6.304650e-01
+     6  1.175820e-01
+     7  1.080420e-02
+     8  2.395960e-01
+     11  2.989660e-04
+     12  3.253320e-05
+     15  2.611780e-04
+     16  3.775440e-04
+     17  2.298950e-04
+     19  3.095810e-04
+     20  3.490430e-05
+     26  5.445640e-06
+     30  2.790970e-06
+ Total atno(Z), Z^2 & Z(Z+1):
+  3.352705e+00  2.112160e+01  2.447430e+01
+ Atomic mass (amu):
+  6.082354e+00
+ AtNo AtNo^2 to mass ratios with respect to ref:
+  9.930090e-01  9.478521e-01
+

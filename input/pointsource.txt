@@ -1,0 +1,3 @@
+1
+Natoms(equal to activity times lamda) type(from isotope file, start from 0), shape type, centerx(cm) centery(cm) centerz(cm) Threecoefftodefineshape#
+1762974000 3 2 0 0 0 0.03 0 0

@@ -1,0 +1,45 @@
+device number:
+0
+noncolinear angle (sigma of Gaussian in rad):
+0.0037056
+phantom dimension
+200 200 200
+phantom offset in global coordinate (in cm):
+-0.5 -0.5 -0.5
+phantom size (in cm):
+1 1 1
+phantom material data file:
+input/cylinder_phantom_mat.dat
+phantom density data file:
+input/cylinder_phantom_den.dat
+simulation history:
+1000000
+use phase space file as source (0 for no, 1 for yes):
+0
+source file:
+input/pointsource.txt
+particle type of phase-space file for source (0 for positron, 1 for photon):
+0
+positron range consideration (0 for no, 1 for yes):
+0
+start time, end time for the radioactive decay process (in seconds):
+0 120
+center (x, y, z) and radius for the photon-PSF-recording spherical surface in the global coordinate (in cm):
+0 0 0 5
+photon absorption energy (in eV):
+1e3
+detector geometry file:
+input/config8.geo
+total number of quadratic surfaces and the TEN parameters (x2 y2 z2 xy xz yz x y z constant) to define each quadratic surface in the local coordinate (in cm):
+1
+0 0 0 0 0 0 0 0 0 1
+readout depth (1 to 3), policy (1 and 2):
+2 1
+thresholder energy before deadtime (in eV):
+50000
+policy, reference energy (in eV), reference resolution (in eV) and slope for energy blurring, and resolution for space blurring (in cm):
+1 662000 0.05 0 0
+deadtime level (1 to 3), deadtime policy (0 for paralyzable, 1 for nonparalyzable), and deadtime duration (in micro-second):
+3 0 2.2
+thresholder and upholder for energy window (in eV):
+30000 700000 
