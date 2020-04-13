@@ -16,7 +16,7 @@ Other significant contributors in the development of the code include:
 
 ## Statement
 
-This is a GPU-based MC simulation package dedicated for PET simulation. For more details or for citation, please refer to the following publication:
+This is a GPU-based MC simulation package dedicated for PET simulation, codeveloped by reseachers from Dr. Xun Jia's group in the University of Texas Southwestern Medical Center and Dr. Yujie Chi's group in the University of Texas at Arlington. For more details or for citation, please refer to the following publication:
 https://iopscience.iop.org/article/10.1088/1361-6560/ab5610/meta   
 Caution: In this released version, double precision floating-point numbers are employed for recording time in the entire simulation, including those computations on the GPU-end, to improve accuracy. Correspondingly, the time cost for the simulation is expected to be longer than that reported in the paper listed above.
 
