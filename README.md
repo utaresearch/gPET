@@ -35,7 +35,7 @@ with CUDA version 10.0. The compilation should also work for CUDA version later 
 
 ```bash
 nvcc -dc *.cu
-nvcc *.o ./protect/*.o -o gPET
+nvcc *.o ./kernal/*.o -o gPET
 ```
 
 ### Execution
