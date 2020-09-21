@@ -1,4 +1,8 @@
-
+# New Release Note in September, 2020
+All source codes are uploaded. Please use 
+nvcc -dc *.cu
+nvcc *.o -o gPET
+to compile. 
 
 # gPET
 
