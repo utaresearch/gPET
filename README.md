@@ -165,7 +165,7 @@ deadtime level (1, 2, 3), deadtime policy (0 for paralyzable, 1 for nonparalyzab
 thresholder and upholder for energy window (in eV):
 30000 700000
 ```
-## Output
+## Output file information and postprocessing
 
 The output event structure is defined in the "gPET.h" file. The data-wrting fuction 'outevents()' is defined in the "detector.cu" file.
 
