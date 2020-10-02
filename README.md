@@ -170,4 +170,4 @@ The output file is a binary file, which is a list of the events. Events has stru
 6 integers: particle id, panel id, moddule id, crystal id, site id, event id;
 4 floating numbers: deposited energy, local position x y z;
 1 number in double precision: global time t. The structure is defined in the gPET.h. The data-wrting fuction outevents() is defined in the detector.cu.
-Please check the uploaded Matlab scripts readData.m
+Please check the uploaded Matlab scripts readOutput.m
