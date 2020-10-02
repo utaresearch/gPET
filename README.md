@@ -167,11 +167,23 @@ thresholder and upholder for energy window (in eV):
 ```
 ## Output file information and postprocessing
 
+There are three kinds of output implemented currently.
+
+### 1 Output for hits in the detector
+Shared memory is used to store such information. two files will be produced, with one being list of 5 intergers and the other 5 floating numbers. The intergers represent particle id, panel id, moddule id, crystal id and scatering order. The floating numbers represent deposited energy, time and local x y z. The writing process is defined in gPET.cu.
+
+### 2 Output for singles in the detector
+
 The output event structure is defined in the "gPET.h" file. The data-wrting fuction 'outevents()' is defined in the "detector.cu" file.
 
 Generally, the output file is a binary file, which is a list of paired photon events. For each event (each row), it has the following parameter values in order:
 - 6 quantities in integer: particle id, panel id, moddule id, crystal id, site id, event id;
 - 4 in float32: deposited energy, local position in x y z;
 - 1 in double precision: global time t. 
+
+### 3 Output for PSF files outside phantom
+
+The results should have three files about positions and momentums, ids and time, which is defined in gPET.cu. Notice here, the positions is in global coordinates.
+
 
 Please check the uploaded Matlab scripts "readOutput.m" for details of output file postprocessing.
