@@ -165,4 +165,8 @@ deadtime level (1, 2, 3), deadtime policy (0 for paralyzable, 1 for nonparalyzab
 thresholder and upholder for energy window (in eV):
 30000 700000
 ```
-
+## Output
+The output file is a binary file, which is a list of the events. Events has structure of 
+6 integers: particle id, panel id, moddule id, crystal id, site id, event id;
+4 floating numbers: deposited energy, local position x y z;
+1 number in double precision: global time t. The structure is defined in the gPET.h. The data-wrting fuction outevents() is defined in the detector.cu.
