@@ -152,8 +152,8 @@ thresholder energy before deadtime (eV):
 50000
 /*Energy and spatial blurring is realized via Gaussian blurring, with the resolution R defined as the FWHM.
 Energy blurring 
--	policy 0, inverse square law, , 
--	policy 1, linear law, .
+-	policy 0, inverse square law, 
+-	policy 1, linear law.
 Spatial blurring follows universal Gaussian blurring for all three dimensions.*/
 policy, reference energy (in eV), reference resolution (in eV) and slope for energy blurring, and resolution for space blurring (in cm):
 1 662000 0.05 0 0
@@ -166,8 +166,12 @@ thresholder and upholder for energy window (in eV):
 30000 700000
 ```
 ## Output
-The output file is a binary file, which is a list of the events. Events has structure of 
-6 integers: particle id, panel id, moddule id, crystal id, site id, event id;
-4 floating numbers: deposited energy, local position x y z;
-1 number in double precision: global time t. The structure is defined in the gPET.h. The data-wrting fuction outevents() is defined in the detector.cu.
-Please check the uploaded Matlab scripts readOutput.m
+
+The output event structure is defined in the "gPET.h" file. The data-wrting fuction 'outevents()' is defined in the "detector.cu" file.
+
+Generally, the output file is a binary file, which is a list of paired photon events. For each event (each row), it has the following parameter values in order:
+- 6 quantities in integer: particle id, panel id, moddule id, crystal id, site id, event id;
+- 4 in float32: deposited energy, local position in x y z;
+- 1 in double precision: global time t. 
+
+Please check the uploaded Matlab scripts "readOutput.m" for details of output file postprocessing.
