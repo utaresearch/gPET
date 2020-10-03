@@ -1,0 +1,5 @@
+# Ignore all files in /output
+output/*
+
+# except for readOutput.m
+!readOutput.m

@@ -75,8 +75,7 @@ The user defined phantom information is read into the code through the “void l
 The "mat.dat" is an int32-type binary file, containing the material index in voxelized geometry, following the index list in ./data/*matter file. Notation: the index starts with ‘0’.
 The "den.dat" is a float32-type binary file, containing material density in the same voxelized geometry as that used for the "mat.dat" file.
 
-### (2). Source
-
+### (2). Source 
 The user defined source information is read into the code through the “readSource(**)” and “readParticle(**)” function in the “initialize.cu” file.
 The source files are of two types, text or binary.
 The "source.txt" is a text file, containing the source information for the position emission nuclei, in a voxelized geometry. Source indexes are defined based on that in the “./data/isotopes.txt” file.
@@ -186,4 +185,4 @@ Generally, the output file is a binary file, which is a list of paired photon ev
 The results should have three files about positions and momentums, ids and time, which is defined in gPET.cu. **Notice here, the positions is in global coordinates**.
 
 
-Please check the uploaded Matlab scripts "readOutput.m" for details of output file postprocessing.
+Please check the Matlab scripts `/output/readOutput.m` for details of output file postprocessing.
